@@ -1,0 +1,60 @@
+riscv_name,mips_name,root_name,format,rname_upper
+add,add,def ADD ,std,ADD
+and,and,def AND ,std,AND
+auipc,auipc,def AUIPC ,std,AUIPC
+or,or,def OR  ,std,OR
+slt,slt,def SLT ,std,SLT
+sltu,sltu,def SLTu ,std,SLTU
+sub,sub,def SUB ,std,SUB
+xor,xor,def XOR ,std,XOR
+lui,lui,def LUi ,std,LUI
+sll,sll,def SLL ,std,SLL
+sra,sra,def SRA ,std,SRA
+srl,srl,def SRL ,std,SRL
+jal,jr.hb,def JR_HB,std,JAL
+lw,lw,def LW ,std,LW
+beq,beq,def BEQ  ,std,BEQ
+lb,lb,def LB ,std,LB
+jalr,jalr,def JALR  ,std,JALR
+lh,lh,def LH ,std,LH
+lhu,lhu,def LHu ,std,LHU
+sd,sd,def SD ,std,SD
+sb,sb,def SB ,std,SB
+bne,bne,def BNE  ,std,BNE
+addi,addi,def ADDi ,std,ADDI
+slti,slti,def SLTi ,std,SLTI
+ld,ld,def LD ,std,LD
+sw,sw,def SW ,std,SW
+lwu,lwu,def LWu ,std,LWU
+sltiu,sltiu,def SLTiu ,std,SLTIU
+andi,andi,def ANDi ,std,ANDI
+lbu,lbu,def LBu ,std,LBU
+xori,xori,def XORi ,std,XORI
+subw,ddiv,def DSDIV ,std,SUBW
+sraw,drotrv,def DROTRV,std,SRAW
+bgeu,blez,def BLEZ,std,BGEU
+ori,ori,def ORi ,std,ORI
+uret,cache,def CACHE_R6,std,URET
+slli,sll,def SLL ,std,SLLI
+addw,dmultu,def DMULTu,std,ADDW
+wfi,eretnc,def ERETNC,std,WFI
+sret,ei,def EI,std,SRET
+blt,blezc,def BLEZC,std,BLT
+srliw,dsllv,def DSLLV ,std,SRLIW
+addiw,sub.d,def FSUB_D32,std,ADDIW
+bltu,blezc,def BLEZC,std,BLTU
+mret,sdbbp,def SDBBP_R6,std,MRET
+sllw,dsra32,def DSRA32,std,SLLW
+srlw,dsllv,def DSLLV ,std,SRLW
+slliw,dsllv,def DSLLV ,std,SLLIW
+ebreak,syscall,def SYSCALL ,std,EBREAK
+sfence.vma,wrpgpr,def PREF,std,SFENCE_VMA
+fence,synci,def SYNCI ,std,FENCE
+srli,sllv,def SLLV ,std,SRLI
+ecall,syscall,def SYSCALL ,std,ECALL
+sraiw,dsrl32,def DSRL32,std,SRAIW
+fence.i,sync,def SYNC ,std,FENCE_I
+bge,beqzc,def BEQZC,std,BGE
+srai,sll,def SLL ,std,SRAI
+sh,swsp,def SWSP_MM  ,std,SH
+fence.tso,sync,def SYNC ,std,FENCE_TSO

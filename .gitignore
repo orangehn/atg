@@ -1,0 +1,14 @@
+*/.ipynb_checkpoints/*
+*/.idea/*
+./atg-coding/out/*
+./atg-coding/output/*
+*/*.pyc
+atg-coding/third_utils/__pycache__/*
+.idea/*
+.../__pycache__/*
+*/__pycache__/*
+
+
+
+
+

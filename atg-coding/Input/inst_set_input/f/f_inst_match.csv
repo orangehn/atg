@@ -1,0 +1,31 @@
+riscv_name,mips_name,root_name,format,rname_upper
+fnmsub.s,sub.s,def FSUB_S ,f,FNMSUB_S
+fcvt.s.w,floor.w.s,def FLOOR_W_S,f,FCVT_S_W
+fsgnjx.s,div,def SDIV ,f,FSGNJX_S
+fsub.s,sel.s,def SEL_S ,f,FSUB_S
+fmsub.s,msub.s,def MSUB_S ,f,FMSUB_S
+fadd.s,msub,def MSUB,f,FADD_S
+feq.s,c.ole.d,def C_OLE_D32,f,FEQ_S
+fclass.s,subu,def SUBu,f,FCLASS_S
+fmin.s,div.s,def FDIV_S ,f,FMIN_S
+fcvt.wu.s,ceil.w.s,def CEIL_W_S,f,FCVT_WU_S
+fcvt.s.wu,floor.l.s,def FLOOR_L_S,f,FCVT_S_WU
+fsqrt.s,auipc,def AUIPC ,f,FSQRT_S
+flt.s,cmp.ole.s,def CMP_ULE_S,f,FLT_S
+fsgnj.s,plu.ps,def PLU_PS64,f,FSGNJ_S
+fmv.w.x,ctc1,def CTC1,f,FMV_W_X
+fsw,swle,def SWLE_MM,f,FSW
+fcvt.w.s,cvt.w.s,def CVT_W_S ,f,FCVT_W_S
+fdiv.s,div.s,def FDIV_S ,f,FDIV_S
+fle.s,cmp.le.s,def CMP_LE_S,f,FLE_S
+fmax.s,selneqz,def MAX_S,f,FMAX_S
+fcvt.lu.s,cvt.l.s,def CVT_L_S ,f,FCVT_LU_S
+fmul.s,msub.s,def MSUB_S ,f,FMUL_S
+fcvt.l.s,ceil.w.s,def CEIL_W_S,f,FCVT_L_S
+fnmadd.s,nmsub.s,def NMSUB_S ,f,FNMADD_S
+fsgnjn.s,rsqrt.s,def RSQRT_S,f,FSGNJN_S
+fmadd.s,nmsub.s,def NMSUB_S ,f,FMADD_S
+fmv.x.w,mfhc1,def MFHC1_D64,f,FMV_X_W
+fcvt.s.lu,cvt.s.w,def CVT_S_W ,f,FCVT_S_LU
+flw,lwc1,def LWC1 ,f,FLW
+fcvt.s.l,cvt.d.l,def CVT_D64_L ,f,FCVT_S_L

@@ -1,0 +1,45 @@
+riscv_name,mips_name,root_name,format,rname_upper
+amoadd.w,addu,def ADDu,a,AMOADD_W
+amoadd.w.aq,addu,def ADDu,a,AMOADD_W_AQ
+amoadd.w.rl,addu,def ADDu,a,AMOADD_W_RL
+amoadd.w.aqrl,addu,def ADDu,a,AMOADD_W_AQ_RL
+amoand.w,ori,def ORi ,a,AMOAND_W
+amoand.w.aq,ori,def ORi ,a,AMOAND_W_AQ
+amoand.w.rl,ori,def ORi ,a,AMOAND_W_RL
+amoand.w.aqrl,ori,def ORi ,a,AMOAND_W_AQ_RL
+amomax.w,add,def ADD ,a,AMOMAX_W
+amomax.w.aq,add,def ADD ,a,AMOMAX_W_AQ
+amomax.w.rl,add,def ADD ,a,AMOMAX_W_RL
+amomax.w.aqrl,add,def ADD ,a,AMOMAX_W_AQ_RL
+amomaxu.w,muhu,def MUHU ,a,AMOMAXU_W
+amomaxu.w.aq,muhu,def MUHU ,a,AMOMAXU_W_AQ
+amomaxu.w.rl,muhu,def MUHU ,a,AMOMAXU_W_RL
+amomaxu.w.aqrl,muhu,def MUHU ,a,AMOMAXU_W_AQ_RL
+amomin.w,mul,def MUL,a,AMOMIN_W
+amomin.w.aq,mul,def MUL,a,AMOMIN_W_AQ
+amomin.w.rl,mul,def MUL,a,AMOMIN_W_RL
+amomin.w.aqrl,mul,def MUL,a,AMOMIN_W_AQ_RL
+amominu.w,seh,def SEH,a,AMOMINU_W
+amominu.w.aq,seh,def SEH,a,AMOMINU_W_AQ
+amominu.w.rl,seh,def SEH,a,AMOMINU_W_RL
+amominu.w.aqrl,seh,def SEH,a,AMOMINU_W_AQ_RL
+amoor.w,andi,def ANDi ,a,AMOOR_W
+amoor.w.aq,andi,def ANDi ,a,AMOOR_W_AQ
+amoor.w.rl,andi,def ANDi ,a,AMOOR_W_RL
+amoor.w.aqrl,andi,def ANDi ,a,AMOOR_W_AQ_RL
+amoxor.w,xori,def XORi ,a,AMOXOR_W
+amoxor.w.aq,xori,def XORi ,a,AMOXOR_W_AQ
+amoxor.w.rl,xori,def XORi ,a,AMOXOR_W_RL
+amoxor.w.aqrl,xori,def XORi ,a,AMOXOR_W_AQ_RL
+lr.w,lwu,def LWu ,a,LR_W
+lr.w.aq,lwu,def LWu ,a,LR_W_AQ
+lr.w.rl,lwu,def LWu ,a,LR_W_RL
+lr.w.aqrl,lwu,def LWu ,a,LR_W_AQ_RL
+sc.w,swp,def SWP_MM,a,SC_W
+sc.w.aq,swp,def SWP_MM,a,SC_W_AQ
+sc.w.rl,swp,def SWP_MM,a,SC_W_RL
+sc.w.aqrl,swp,def SWP_MM,a,SC_W_AQ_RL
+amoswap.w,wsbh,def WSBH,a,AMOSWAP_W
+amoswap.w.aq,wsbh,def WSBH,a,AMOSWAP_W_AQ
+amoswap.w.rl,wsbh,def WSBH,a,AMOSWAP_W_RL
+amoswap.w.aqrl,wsbh,def WSBH,a,AMOSWAP_W_AQ_RL

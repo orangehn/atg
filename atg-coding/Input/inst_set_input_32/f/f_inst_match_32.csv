@@ -1,0 +1,27 @@
+riscv_name,mips_name,root_name,format,rname_upper
+flw,lwc1,def LWC1 ,f,FLW
+fadd.s,msub,def MSUB,f,FADD_S
+fclass.s,subu,def SUBu,f,FCLASS_S
+fcvt.s.w,floor.w.s,def FLOOR_W_S,f,FCVT_S_W
+fcvt.s.wu,floor.l.s,def FLOOR_L_S,f,FCVT_S_WU
+fcvt.w.s,cvt.w.s,def CVT_W_S ,f,FCVT_W_S
+fcvt.wu.s,ceil.w.s,def CEIL_W_S,f,FCVT_WU_S
+fdiv.s,div.s,def FDIV_S ,f,FDIV_S
+feq.s,c.ole.d,def C_OLE_D32,f,FEQ_S
+fle.s,cmp.le.s,def CMP_LE_S,f,FLE_S
+flt.s,cmp.ole.s,def CMP_ULE_S,f,FLT_S
+fmax.s,selneqz,def MAX_S,f,FMAX_S
+fmin.s,div.s,def FDIV_S ,f,FMIN_S
+fmul.s,msub.s,def MSUB_S ,f,FMUL_S
+fmv.w.x,ctc1,def CTC1,f,FMV_W_X
+fmv.x.w,mfhc1,def MFHC1_D64,f,FMV_X_W
+fsgnj.s,plu.ps,def PLU_PS64,f,FSGNJ_S
+fsgnjn.s,rsqrt.s,def RSQRT_S,f,FSGNJN_S
+fsgnjx.s,div,def SDIV ,f,FSGNJX_S
+fsqrt.s,auipc,def AUIPC ,f,FSQRT_S
+fsub.s,sel.s,def SEL_S ,f,FSUB_S
+fmadd.s,nmsub.s,def NMSUB_S ,f,FMADD_S
+fmsub.s,msub.s,def MSUB_S ,f,FMSUB_S
+fnmadd.s,nmsub.s,def NMSUB_S ,f,FNMADD_S
+fnmsub.s,sub.s,def FSUB_S ,f,FNMSUB_S
+fsw,swle,def SWLE_MM,f,FSW

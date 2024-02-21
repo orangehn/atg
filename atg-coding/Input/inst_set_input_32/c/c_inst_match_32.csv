@@ -1,0 +1,33 @@
+riscv_name,mips_name,root_name,format,rname_upper
+c.beqz,bnez16,def BNEZ16_MM  ,c,C_BEQZ
+c.bnez,bnez16,def BNEZ16_MM  ,c,C_BNEZ
+c.addi,addius5,def ADDIUS5_MM  ,c,C_ADDI
+c.addi16sp,addius5,def ADDIUS5_MM  ,c,C_ADDI16SP
+c.andi,or16,def OR16_MM  ,c,C_ANDI
+c.flwsp,lhu,def LHu ,c,C_FLWSP
+c.li,li16,def LI16_MM  ,c,C_LI
+c.lui,lwsp,def LWSP_MM  ,c,C_LUI
+c.lwsp,lhu,def LHu ,c,C_LWSP
+c.nop,addius5,def ADDIUS5_MM  ,c,C_NOP
+c.slli,sll16,def SLL16_MM  ,c,C_SLLI
+c.srai,sll16,def SLL16_MM  ,c,C_SRAI
+c.srli,sll16,def SLL16_MM  ,c,C_SRLI
+c.addi4spn,subu16,def SUBU16_MM  ,c,C_ADDI4SPN
+c.j,jrc,def JRC16_MM,c,C_J
+c.jal,jr16,def JR16_MM  ,c,C_JAL
+c.flw,lhu,def LHu ,c,C_FLW
+c.lw,lwgp,def LWGP_MM ,c,C_LW
+c.add,addiur2,def ADDIUR2_MM,c,C_ADD
+c.and,not16,def NOT16_MM  ,c,C_AND
+c.ebreak,break16,def BREAK16_MM  ,c,C_EBREAK
+c.jalr,jr16,def JR16_MM  ,c,C_JALR
+c.jr,jrc,def JRC16_MM,c,C_JR
+c.mv,move16,def MOVE16_MM  ,c,C_MV
+c.or,andi16,def ANDI16_MM  ,c,C_OR
+c.sub,addu16,def ADDU16_MM ,c,C_SUB
+c.xor,andi16,def ANDI16_MM  ,c,C_XOR
+c.fsw,swsp,def SWSP_MM  ,c,C_FSW
+c.sw,swsp,def SWSP_MM  ,c,C_SW
+c.fsdsp,sh16,def SH16_MM,c,C_FSDSP
+c.fswsp,swsp,def SWSP_MM  ,c,C_FSWSP
+c.swsp,swsp,def SWSP_MM  ,c,C_SWSP

@@ -1,0 +1,62 @@
+Index,Abbr.,Comments for Target-Specific Details.
+1,rname,Instruction name.
+2,Size,Size of encoded instruction.
+3,AsmString,The asm format to print the instruction with.
+4,Format,"Instruction format classification, e.g. R, I, J."
+5,Set,Instruction Set Architecture Name (ISA).
+6,Namespace,The namespace of this target.
+7,Arch,"The name of  instruction set architecture, specifial for Mips."
+8,OutOperandList,The def operand list of this instruction.
+9,InOperandList,The use operand list of this instruction.
+10,Pattern,"Pattern - Set to the DAG pattern for this instruction, if we know of one, otherwise, uninitialized."
+11,Itinerary,Instruction execution steps used for scheduling.
+12,is_op,Is this instruciton format field an operand?
+13,frag_name,The name of each instruction format field.
+14,value,The binary value of each instruction format field.
+15,start_bit,The start bit of each instruction format field.
+16,end_bit,The end bit of each instruction format field.
+17,op_type,"The type of each operand, e.g. immediate operand, register operand etc."
+18,ILLEGAL,"The illegal information of each operand, e.g. illegal register operand for specified instruction.Default is null."
+19,Mode,The precision of each operand.
+20,is_signed,Is the immediate operand  a signed operand?
+21,NoZero,Whether this operand is non-zero?
+22,LSB,The least significant bit of the operand.
+23,SoftFail,Field the disassembler can use to provide a way for instructions to not match without killing the whole decode process. It is mainly used for ARM.
+24,mayLoad,Is it possible for this instruction to read memory?
+25,mayStore,Is it possible for this instruction to write memory?
+26,Constraints,"OperandConstraint, e.g. $src = $dst."
+27,isCommutable,Is this 3 operand instruction commutable?
+28,TwoOperandAliasConstraint,"TwoOperandAliasConstraint - Enable TableGen to auto-generate a two-operand matcher inst-alias for a three operand instruction.  For example, the arm instruction ""add r3, r3, r5"" can be written as ""add r3, r5"". The constraint is of the same form as a tied-operand constraint. For example, ""$Rn = $Rd""."
+29,Defs,Does this instruction modify any non-operand registers?
+30,Uses,Does this instruction use any non-operand registers?
+31,isBranch,Is this instruction a branch instruction?
+32,isCall,Is this instruction a call instruction?
+33,isCompare,Is this instruction a comparison instruction?
+34,isIndirectBranch,Is this instruction an indirect branch?
+35,canFoldAsLoad,Can this be folded as a simple memory operand?
+36,hasDelaySlot,Does this instruction have an delay slot?
+37,hasNoSchedulingInfo,Is this instruction is not expected to be queried for scheduling latencies and therefore needs no scheduling information even for a complete scheduling model.
+38,hasSideEffects,Does the instruction have side effects that are not captured by any operands of the instruction or other flags?
+39,isBarrier,Can control flow fall through this instruction?
+40,isAsCheapAsAMove,As cheap (or cheaper) than a move instruction?
+41,isMoveReg,Is this instruction a move register instruction?
+42,isReMaterializable,Is this instruction re-materializable?
+43,isReturn,Is this instruction a return instruction?
+44,isTerminator,Is this part of the terminator for a basic block?
+45,DecoderNamespace,"The ""namespace"" in which this instruction exists, on targets like ARM which multiple ISA namespaces exist."
+46,DecoderMethod,Describe the instruction decoder method.
+47,DisableEncoding,"List of operand names (e.g. ""$op1,$op2"") that should not be encoded into the output machineinstr."
+48,Predicates,List of predicates which will be turned into isel matching code.
+49,EncodingPredicates,Predicates for the encoding scheme in use.
+50,InsnPredicates,Predicates for the instruction group membership such as ISA's.
+51,ASEPredicate,Predicate for the ASE that an instruction belongs to.
+52,GPRPredicates,Predicates for the GPR size.
+53,HardFloatPredicate,Predicate for marking the instruction as usable in hard-float mode only.
+54,FGRPredicates,Predicates for the FGR size and layout.
+55,PTRPredicates,Predicates for the PTR size.
+56,AdditionalPredicates,Predicates for anything else.
+57,AsmMatchConverter,The name of asm match converter used to convert the operandVector into an MCInst.
+58,usesCustomInserter,Does this pseudo instruction need special help?
+59,isCodeGenOnly,"Does this instruction have encoding information and can go through to the CodeEmitter unchanged, but duplicates a canonical instruction definition's encoding and should be ignored when constructing the assembler match tables?"
+60,hasPostISelHook,Does this instruction noeed to be adjusted after isel by target hook?
+61,AddedComplexity,How much added comlexity passed onto matching pattern does this instruction cause? 

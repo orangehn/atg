@@ -1,0 +1,129 @@
+Rname,RSet,mips,Mips定义,定义文件,Format文件,InstrItinClass文件,ISA文件
+fadd.d,d,add.d,defm FADD:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fclass.d,d,class.d,def CLASS_D:,Mips32R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.d.l,d,cvt.d.l,def CVT_D64_L:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.d.lu,d,cvt.d.l,def CVT_D65_L:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.d.s,d,cvt.d.s,def CVT_D32_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.d.w,d,cvt.d.w,def CVT_D32_W:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.d.wu,d,cvt.d.w,def CVT_D33_W:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.l.d,d,cvt.l.d,def CVT_L_D64:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.lu.d,d,cvt.l.d,def CVT_L_D64:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.w.d,d,cvt.w.d,defm CVT_W:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.wu.d,d,cvt.w.d,defm CVT_W:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fdiv.d,d,div.d,defm FDIV:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+feq.d,d,c.eq.d,multiclass?C_COND_M;def C_EQ_#NAME;defm D32,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fld,d,ldc1,def LDC1:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fle.d,d,c.le.d,multiclass?C_COND_M;def C_LE_#NAME;defm D32,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+flt.d,d,c.lt.d,multiclass?C_COND_M;def C_LT_#NAME;defm D32,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmadd.d,d,madd.d,def MADD_D32:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmax.d,d,max.d,def MAX_D:,Mips32R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmin.d,d,min.d,def MIN_D:,Mips32R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmsub.d,d,msub.d,def MSUB_D32:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmul.d,d,mul.d,defm FMUL:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmv.d.x,d,mov.d,defm FMOV:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmv.x.d,d,mov.d,defm FMOV:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fnmadd.d,d,nmadd.d,def NMADD_D32:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fnmsub.d,d,nmsub.d,def NMSUB_D32:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fsd,d,sdc1,def SDC1:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fsqrt.d,d,sqrt.d,defm FSQRT:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fsub.d,d,sub.d,defm FSUB:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fadd.s,f,add.s,def FADD_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fclass.s,f,class.s,def CLASS_S:,Mips32R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.l.s,f,cvt.l.s,def CVT_L_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.lu.s,f,cvt.l.s,def CVT_L_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.s.d,f,cvt.s.d,def CVT_S_D32:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.s.l,f,cvt.s.l,def CVT_S_L:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.s.lu,f,cvt.s.l,def CVT_S_L:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.s.w,f,cvt.s.w,def CVT_S_W:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.s.wu,f,cvt.s.w,def CVT_S_W:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.w.s,f,cvt.w.s,def CVT_W_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fcvt.wu.s,f,cvt.w.s,def CVT_W_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fdiv.s,f,div.s,def FDIV_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+feq.s,f,c.eq.s,multiclass?C_COND_M;def C_EQ_#NAME;defm S,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fle.s,f,c.le.s,multiclass?C_COND_M;def C_LE_#NAME;defm S,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+flt.s,f,c.lt.s,multiclass?C_COND_M;def C_LT_#NAME;defm S,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+flw,f,lwc1,def LWC1:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmadd.s,f,madd.s,def MADD_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmax.s,f,max.s,def MAX_S:,Mips32R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmin.s,f,min.s,def MIN_S:,Mips32R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmsub.s,f,msub.s,def MSUB_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmul.s,f,mul.s,def FMUL_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmv.x.w,f,mov.s,def FMOV_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fmv.w.x,f,mov.s,def FMOV_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fnmadd.s,f,nmadd.s,def NMADD_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fnmsub.s,f,nmsub.s,def NMSUB_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fsqrt.s,f,sqrt.s,def FSQRT_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fsub.s,f,sub.s,def FSUB_S:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fsw,f,swc1,def SWC1:,MipsInstrFPU.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+div,m,div,def SDIV:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+divu,m,divu,def UDIV:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+divuw,m,ddivu,def DUDIV:,Mips64InstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+divw,m,ddiv,def DSDIV:,Mips64InstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+mul,m,mul,def MUL：,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+mulh,m,muh,def MUH:,Mips32R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+mulhsu,m,muhu,def MUHU:,Mips32R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+mulhu,m,muhu,def MUHU:,Mips32R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+mulw,m,dmul,def DMUL：,Mips64InstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+rem,m,mod,def MOD:,Mips32R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+remu,m,modu,def MODU:,Mips32R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+remuw,m,dmodu,def DMODU:,Mips64R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+remw,m,dmod,def DMOD:,Mips64R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+add,std,add,def ADD:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+addi,std,addi,def ADDi:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+addiw,std,daddi,def DADDi:,Mips64InstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+addw,std,dadd,def DADD:,Mips64InstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+and,std,and,def AND:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+andi,std,andi,def ANDi:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+auipc,std,auipc,def AUIPC:,Mips32R6InstrInfo.td,Mips32R6InstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+beq,std,beq,def BEQ: ,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+bge,std,bgez,def BGEZ: ,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+bgeu,std,bgez,def BGEZ: ,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+blt,std,bltz,def BLTZ: ,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+bltu,std,bltz,def BLTZ: ,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+bne,std,bne,def BNE: ,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+Ebreak,std,break,def BREAK: ,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+ecall,std,syscall,def SYSCALL:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fence,std,synci,def SYNCI:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fence.i,std,sync,def SYNC:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+jal,std,jal,def JAL: ,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+jalr,std,jalr,def JALR: ,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+lb,std,lb,def LB:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+lbu,std,lbu,def LBu:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+ld,std,ld,def LD:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+lh,std,lh,def LH:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+lhu,std,lhu,def LHu:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+lw,std,lw,def LW:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+lwu,std,lwu,def LWu:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+lui,std,lui,def LUi:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+mret,std,eret,def ERET:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+or,std,or,def OR: ,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+ori,std,ori,def ORi:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sb,std,sb,def SB:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sd,std,sd,def SD:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sfence.vma,std,synci,def SYNCI:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sh,std,sh,def SH:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sw,std,sw,def SW:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sll,std,sllv,def SLLV:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+slli,std,sll,def SLL:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+slliw,std,dsll,def DSLL:,Mips64InstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sllw,std,dsllv,def DSLLV:,Mips64InstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+slt,std,slt,def SLT:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+slti,std,slti,def SLTi:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sltiu,std,sltiu,def SLTiu:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sltu,std,sltu,def SLTu:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sra,std,srav,def SRAV:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+srai,std,sra,def SRA:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sraiw,std,dsra,def DSRA:,Mips64InstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sraw,std,dsrav,def DSRAV:,Mips64InstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sret,std,eret,def ERET:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+srl,std,srlv,def SRLV:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+srli,std,srl,def SRL:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+srliw,std,dsrl,def DSRL:,Mips64InstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+srlw,std,dsrlv,def DSRLV:,Mips64InstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+sub,std,sub,def SUB:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+subw,std,dsub,def DSUB:,Mips64InstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+wfi,std,wait,def WAIT,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+xor,std,xor,def XOR:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+xori,std,xori,def XORi:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+uret,std,eret,def ERET:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td
+fence.tso,std,sync,def SYNC:,MipsInstrInfo.td,MipsInstrFormats.td,MipsSchedule.td,MipsInstrInfo.td

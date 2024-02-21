@@ -1,0 +1,14 @@
+riscv_name,mips_name,root_name,format,rname_upper
+div,div,def SDIV ,m,DIV
+mul,mul,def MUL,m,MUL
+divu,divu,def UDIV ,m,DIVU
+divuw,daddi,def DADDi ,m,DIVUW
+mulhu,muhu,def MUHU ,m,MULHU
+mulw,daddiu,def DADDiu,m,MULW
+mulh,slti,def SLTi ,m,MULH
+divw,sub.d,def FSUB_D32,m,DIVW
+remu,add,def ADD ,m,REMU
+remw,daddu,def DADDu,m,REMW
+remuw,daddu,def DADDu,m,REMUW
+rem,mul,def MUL,m,REM
+mulhsu,div,def SDIV ,m,MULHSU

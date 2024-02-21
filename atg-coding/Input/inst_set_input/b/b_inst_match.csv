@@ -1,0 +1,99 @@
+riscv_name,mips_name,root_name,format,rname_upper
+clz,clz,def CLZ,b,CLZ
+sh1add,rotrv,def ROTRV,b,SH1ADD
+clmul,dclz,def DCLZ,b,CLMUL
+sh3add,srl,def SRL ,b,SH3ADD
+sh2add,srl,def SRL ,b,SH2ADD
+min,sltiu,def SLTiu ,b,MIN
+minu,addiu,def ADDiu,b,MINU
+max,addu,def ADDu,b,MAX
+clmulr,muhu,def MUHU ,b,CLMULR
+rorw,dsrl,def DSRL ,b,RORW
+clmulh,seh,def SEH,b,CLMULH
+sh3add.uw,dsrl,def DSRL ,b,SH3ADDUW
+cmov,movf.s,def MOVF_I_MM,b,CMOV
+crc32.b,crc32b,def CRC32B,b,CRC32B
+crc32.w,crc32w,def CRC32W,b,CRC32W
+crc32c.b,crc32cb,def CRC32CB,b,CRC32CB
+crc32c.w,crc32cw,def CRC32CW,b,CRC32CW
+crc32c.h,crc32ch,def CRC32CH,b,CRC32CH
+crc32.h,crc32h,def CRC32H,b,CRC32H
+maxu,seh,def SEH,b,MAXU
+rolw,dsrl,def DSRL ,b,ROLW
+orn,nor,def NOR,b,ORN
+rol,srav,def SRAV ,b,ROL
+roriw,dsll,def DSLL ,b,RORIW
+ror,srav,def SRAV ,b,ROR
+zext.h,dext,def DEXT,b,ZEXTH_RV64
+sh2add.uw,drotrv,def DROTRV,b,SH2ADDUW
+ctzw,clo,def CLO,b,CTZW
+cmix,movf,def MOVF_I_MM,b,CMIX
+rori,rotrv,def ROTRV,b,RORI
+add.uw,sub.d,def FSUB_D32,b,ADDUW
+slli.uw,dsrl,def DSRL ,b,SLLIUW
+andn,xor,def XOR ,b,ANDN
+xnor,or,def OR  ,b,XNOR
+binviw,cvt.l.d,def CVT_L_D64 ,b,BINVIW
+bext,ins,def INS,b,BEXT
+sh1add.uw,dsrav,def DSRAV ,b,SH1ADDUW
+ctz,clo,def CLO,b,CTZ
+cpop,clo,def CLO,b,CPOP
+bextw,dinsu,def DINSU,b,BEXTW
+binvi,ceil.w.s,def CEIL_W_S,b,BINVI
+binvw,floor.l.d,def FLOOR_L_D64,b,BINVW
+zext.h,ins,def INS,b,ZEXTH_RV32
+binv,divu,def UDIV ,b,BINV
+bexti,ins,def INS,b,BEXTI
+packh,addius5,def ADDIUS5_MM  ,b,PACKH
+packu,aui,def AUI,b,PACKU
+pack,addi,def ADDi ,b,PACK
+packuw,abs.d,def FABS_D64,b,PACKUW
+fsri,lwr,def LWR  ,b,FSRI
+packw,daddiu,def DADDiu,b,PACKW
+cpopw,lld,def LLD,b,CPOPW
+unshflw,dmfc2,def DMFC2,b,UNSHFLW
+clzw,lld,def LLD,b,CLZW
+bsetw,dmfc2,def DMFC2,b,BSETW
+bclr,lwp,def LWP_MM,b,BCLR
+bfpw,dmfc2,def DMFC2,b,BFPW
+sext.h,xori,def XORi ,b,SEXTH
+unshfl,mfc2,def MFC2,b,UNSHFL
+fsl,lwr,def LWR  ,b,FSL
+grev,lwp,def LWP_MM,b,GREV
+bsetiw,dmfc2,def DMFC2,b,BSETIW
+bclriw,lwr,def LWR  ,b,BCLRIW
+shfli,lwp,def LWP_MM,b,SHFLI
+rev8,lwp,def LWP_MM,b,REV8_RV32
+bfp,lwp,def LWP_MM,b,BFP
+shfl,lwp,def LWP_MM,b,SHFL
+shflw,dext,def DEXT,b,SHFLW
+grevw,dmfc2,def DMFC2,b,GREVW
+rev8,dmfc2,def DMFC2,b,REV8_RV64
+bseti,lwr,def LWR  ,b,BSETI
+bset,mfc2,def MFC2,b,BSET
+bclri,mfc2,def MFC2,b,BCLRI
+bmatxor,dmfc2,def DMFC2,b,BMATXOR
+xperm.h,mulu,def MULU,b,XPERMH
+fsr,lwre,def LWRE_MM,b,FSR
+unshfli,bgec,def BGEC,b,UNSHFLI
+grevi,mfc2,def MFC2,b,GREVI
+bdecompressw,sdc2,def SDC2,b,BDECOMPRESSW
+bclrw,mfc2,def MFC2,b,BCLRW
+bmator,dmfc2,def DMFC2,b,BMATOR
+bcompress,swc2,def SWC2,b,BCOMPRESS
+xperm.b,bc1tl,def BC1TL,b,XPERMB
+bdecompress,swc2,def SWC2,b,BDECOMPRESS
+fslw,dinsu,def DINSU,b,FSLW
+bcompressw,sdc2,def SDC2,b,BCOMPRESSW
+fsrw,daddi,def DADDi ,b,FSRW
+fsriw,lld,def LLD,b,FSRIW
+crc32c.d,scd,def SCD,b,CRC32CD
+greviw,dmfc2,def DMFC2,b,GREVIW
+gorci,lwu,def LWu ,b,GORCI
+xperm.n,bc1tl,def BC1TL,b,XPERMN
+bmatflip,dmfc2,def DMFC2,b,BMATFLIP
+orc.b,lb,def LB ,b,ORCB
+gorc,lwu,def LWu ,b,GORC
+c.neg,addiur1sp,def ADDIUR1SP_MM  ,c,C_NEG
+c.not,andi16,def ANDI16_MM  ,c,C_NOT
+c.zext.w,xori,def XORi ,c,C_ZEXTW

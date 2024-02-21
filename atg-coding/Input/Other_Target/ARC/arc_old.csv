@@ -1,0 +1,148 @@
+instr
+defm    ADD
+defm    SUB
+defm    SUB1
+defm    SUB2
+defm    SUB3
+defm    OR
+defm    AND
+defm    XOR
+defm    MAX
+defm    MIN
+defm    CMP
+def    MOV_rs12
+def    MOV_rr
+def    MOV_rlimm
+def    MOV_ru6
+def    MOVcc
+def    BR
+def    Bcc
+def    BRcc_rr
+def    BRcc_ru6
+def    BRcc_rr_p
+def    BRcc_ru6_p
+def    BL
+def    J
+def    J_LImm
+def    JL
+def    JL_LImm
+defm    LD#di.InstSuffix
+defm    ST#zz.InstSuffix#di.InstSuffix    :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

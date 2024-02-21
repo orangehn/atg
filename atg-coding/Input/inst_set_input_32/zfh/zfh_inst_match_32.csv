@@ -1,0 +1,31 @@
+riscv_name,mips_name,root_name,format,rname_upper
+fsh,swc1,def SWC1 ,Zfh,FSH
+fmadd.h,madd.s,def MADD_S ,Zfh,FMADD_H
+fmsub.h,msub.s,def MSUB_S ,Zfh,FMSUB_H
+fnmsub.h,nmsub.s,def NMSUB_S ,Zfh,FNMSUB_H
+fnmadd.h,nmadd.s,def NMADD_S ,Zfh,FNMADD_H
+fadd.h,add.s,def FADD_S ,Zfh,FADD_H
+fsub.h,sub.s,def FSUB_S ,Zfh,FSUB_H
+fmul.h,mul.s,def FMUL_S ,Zfh,FMUL_H
+fdiv.h,div.s,def FDIV_S ,Zfh,FDIV_H
+fsqrt.h,sqrt.s,def FSQRT_S ,Zfh,FSQRT_H
+fsgnj.h,sel.s,def SEL_S ,Zfh,FSGNJ_H
+fsgnjn.h,sel.s,def SEL_S ,Zfh,FSGNJN_H
+fsgnjx.h,sel.s,def SEL_S ,Zfh,FSGNJX_H
+fmin.h,min.s,def MIN_S ,Zfh,FMIN_H
+fmax.h,max.s,def MAX_S ,Zfh,FMAX_H
+fcvt.w.h,cvt.d.w,def CVT_D32_W ,Zfh,FCVT_W_H
+fcvt.wu.h,cvt.d.w,def CVT_D32_W ,Zfh,FCVT_WU_H
+fcvt.h.w,cvt.w.d,def CVT_W_D32,Zfh,FCVT_H_W
+fcvt.h.wu,cvt.w.d,def CVT_W_D32,Zfh,FCVT_H_WU
+fcvt.h.s,cvt.w.s,def CVT_W_S ,Zfh,FCVT_H_S
+fcvt.s.h,cvt.s.w,def CVT_S_W ,Zfh,FCVT_S_H
+fmv.x.h,mov.s,def FMOV_S ,Zfh,FMV_X_H
+fmv.h.x,mov.s,def FMOV_S ,Zfh,FMV_H_X
+feq.h,c.eq.s,def C_EQ_S,Zfh,FEQ_H
+flt.h,c.lt.s,def C_LT_S,Zfh,FLT_H
+fle.h,c.le.s,def C_LE_S,Zfh,FLE_H
+fclass.h,class.s,def CLASS_S ,Zfh,FCLASS_H
+fcvt.h.d,cvt.s.d,def CVT_S_D32 ,Zfh,FCVT_H_D
+fcvt.d.h,cvt.d.s,def CVT_D32_S ,Zfh,FCVT_D_H
+flh,lwc1,def LWC1,Zfh,FLH

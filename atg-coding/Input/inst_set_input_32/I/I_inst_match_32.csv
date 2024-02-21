@@ -1,0 +1,48 @@
+riscv_name,mips_name,root_name,format,rname_upper
+beq,beq,def BEQ  ,std,BEQ
+bge,beqzc,def BEQZC,std,BGE
+bgeu,blez,def BLEZ,std,BGEU
+blt,blezc,def BLEZC,std,BLT
+bltu,blezc,def BLEZC,std,BLTU
+bne,bne,def BNE  ,std,BNE
+addi,addi,def ADDi ,std,ADDI
+andi,andi,def ANDi ,std,ANDI
+ebreak,syscall,def SYSCALL ,std,EBREAK
+ecall,syscall,def SYSCALL ,std,ECALL
+fence,synci,def SYNCI ,std,FENCE
+fence.i,sync,def SYNC ,std,FENCE_I
+fence.tso,sync,def SYNC ,std,FENCE_TSO
+jalr,jalr,def JALR  ,std,JALR
+lb,lb,def LB ,std,LB
+lbu,lbu,def LBu ,std,LBU
+lh,lh,def LH ,std,LH
+lhu,lhu,def LHu ,std,LHU
+lw,lw,def LW ,std,LW
+ori,ori,def ORi ,std,ORI
+slli,sll,def SLL ,std,SLLI
+slti,slti,def SLTi ,std,SLTI
+sltiu,sltiu,def SLTiu ,std,SLTIU
+srai,sll,def SLL ,std,SRAI
+srli,sllv,def SLLV ,std,SRLI
+xori,xori,def XORi ,std,XORI
+jal,jr.hb,def JR_HB,std,JAL
+add,add,def ADD ,std,ADD
+and,and,def AND ,std,AND
+mret,sdbbp,def SDBBP_R6,std,MRET
+or,or,def OR  ,std,OR
+sfence.vma,wrpgpr,def PREF,std,SFENCE_VMA
+sll,sll,def SLL ,std,SLL
+slt,slt,def SLT ,std,SLT
+sltu,sltu,def SLTu ,std,SLTU
+sra,sra,def SRA ,std,SRA
+sret,ei,def EI,std,SRET
+srl,srl,def SRL ,std,SRL
+sub,sub,def SUB ,std,SUB
+uret,cache,def CACHE_R6,std,URET
+wfi,eretnc,def ERETNC,std,WFI
+xor,xor,def XOR ,std,XOR
+sb,sb,def SB ,std,SB
+sh,swsp,def SWSP_MM  ,std,SH
+sw,sw,def SW ,std,SW
+auipc,auipc,def AUIPC ,std,AUIPC
+lui,lui,def LUi ,std,LUI

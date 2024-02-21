@@ -1,0 +1,27 @@
+riscv_name,mips_name,root_name,format,rname_upper
+fld,ldxc1,def LDXC1,d,FLD
+fadd.d,selneqz.d,def FADD_D64,d,FADD_D
+fclass.d,daddi,def DADDi ,d,FCLASS_D
+fcvt.d.s,floor.w.s,def FLOOR_W_S,d,FCVT_D_S
+fcvt.d.w,round.l.s,def ROUND_L_S,d,FCVT_D_W
+fcvt.d.wu,rint.s,def RINT_S,d,FCVT_D_WU
+fcvt.w.d,recip.d,def RECIP_D32,d,FCVT_W_D
+fcvt.wu.d,floor.w.d,def FLOOR_W_D32,d,FCVT_WU_D
+fdiv.d,max.d,def MAX_D ,d,FDIV_D
+feq.d,cmp.ult.d,def CMP_ULT_D,d,FEQ_D
+fle.d,cmp.ueq.d,def CMP_UEQ_D,d,FLE_D
+flt.d,cmp.eq.d,def CMP_EQ_D,d,FLT_D
+fmax.d,max.d,def MAX_D ,d,FMAX_D
+fmin.d,dadd,def DADD ,d,FMIN_D
+fmul.d,max.d,def MAX_D ,d,FMUL_D
+fsgnj.d,max.d,def MAX_D ,d,FSGNJ_D
+fsgnjn.d,add.d,def FADD_D32,d,FSGNJN_D
+fsgnjx.d,seleqz.d,def SELEQZ_D,d,FSGNJX_D
+fsqrt.d,div.d,def FDIV_D32,d,FSQRT_D
+fsub.d,add.d,def FADD_D32,d,FSUB_D
+fmadd.d,seleqz.d,def SELEQZ_D,d,FMADD_D
+fmsub.d,msub.d,def MSUB_D32 ,d,FMSUB_D
+fnmadd.d,dsub,def DSUB ,d,FNMADD_D
+fnmsub.d,min.d,def MIN_D ,d,FNMSUB_D
+fsd,scd,def SCD,d,FSD
+fcvt.s.d,floor.w.d,def FLOOR_W_D64,d,FCVT_S_D

@@ -1,0 +1,66 @@
+riscv_name,mips_name,root_name,format,rname_upper
+andn,xor,def XOR ,b,ANDN
+bclr,lwp,def LWP_MM,b,BCLR
+bclri,mfc2,def MFC2,b,BCLRI
+bclriw,lwr,def LWR  ,b,BCLRIW
+bclrw,mfc2,def MFC2,b,BCLRW
+bext,ins,def INS,b,BEXT
+bexti,ins,def INS,b,BEXTI
+bfp,lwp,def LWP_MM,b,BFP
+binv,divu,def UDIV ,b,BINV
+binvi,ceil.w.s,def CEIL_W_S,b,BINVI
+bset,mfc2,def MFC2,b,BSET
+bseti,lwr,def LWR  ,b,BSETI
+clmul,dclz,def DCLZ,b,CLMUL
+clmulh,seh,def SEH,b,CLMULH
+clmulr,muhu,def MUHU ,b,CLMULR
+clz,clz,def CLZ,b,CLZ
+cmix,movf,def MOVF_I_MM,b,CMIX
+cmov,movf.s,def MOVF_I_MM,b,CMOV
+cpop,clo,def CLO,b,CPOP
+crc32.b,crc32b,def CRC32B,b,CRC32B
+crc32c.b,crc32cb,def CRC32CB,b,CRC32CB
+crc32c.h,crc32ch,def CRC32CH,b,CRC32CH
+crc32c.w,crc32cw,def CRC32CW,b,CRC32CW
+crc32.h,crc32h,def CRC32H,b,CRC32H
+crc32.w,crc32w,def CRC32W,b,CRC32W
+ctz,clo,def CLO,b,CTZ
+ctzw,clo,def CLO,b,CTZW
+fsl,lwr,def LWR  ,b,FSL
+fsr,lwre,def LWRE_MM,b,FSR
+fsri,lwr,def LWR  ,b,FSRI
+gorc,lwu,def LWu ,b,GORC
+gorci,lwu,def LWu ,b,GORCI
+grev,lwp,def LWP_MM,b,GREV
+grevi,mfc2,def MFC2,b,GREVI
+max,addu,def ADDu,b,MAX
+maxu,seh,def SEH,b,MAXU
+min,sltiu,def SLTiu ,b,MIN
+minu,addiu,def ADDiu,b,MINU
+orc.b,lb,def LB ,b,ORCB
+orn,nor,def NOR,b,ORN
+rev8,lwp,def LWP_MM,b,REV8_RV32
+rol,srav,def SRAV ,b,ROL
+ror,srav,def SRAV ,b,ROR
+rori,rotrv,def ROTRV,b,RORI
+sext.h,xori,def XORi ,b,SEXTH
+sh1add,rotrv,def ROTRV,b,SH1ADD
+sh2add,srl,def SRL ,b,SH2ADD
+sh3add,srl,def SRL ,b,SH3ADD
+shfl,lwp,def LWP_MM,b,SHFL
+shfli,lwp,def LWP_MM,b,SHFLI
+unshfl,mfc2,def MFC2,b,UNSHFL
+unshfli,bgec,def BGEC,b,UNSHFLI
+xnor,or,def OR  ,b,XNOR
+zext.h,ins,def INS,b,ZEXTH_RV32
+bcompress,swc2,def SWC2,b,BCOMPRESS
+bdecompress,swc2,def SWC2,b,BDECOMPRESS
+pack,addi,def ADDi ,b,PACK
+packh,addius5,def ADDIUS5_MM  ,b,PACKH
+packu,aui,def AUI,b,PACKU
+xperm.b,bc1tl,def BC1TL,b,XPERMB
+xperm.h,mulu,def MULU,b,XPERMH
+xperm.n,bc1tl,def BC1TL,b,XPERMN
+c.neg,addiur1sp,def ADDIUR1SP_MM  ,c,C_NEG
+c.not,andi16,def ANDI16_MM  ,c,C_NOT
+c.zext.w,xori,def XORi ,c,C_ZEXTW
